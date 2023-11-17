@@ -1,7 +1,7 @@
-4afb779caf25b1d9185643a3f37c698a *DESCRIPTION
+74bc5b9465743e62d2cc569c24516bb8 *DESCRIPTION
 a699489fbaa4c98f0be448cb32b5ce39 *LICENSE
 030e9df7f37ee257cff118182f32630b *NAMESPACE
-064417395f0cef14545c08d726773a4b *NEWS.md
+ddb88bb6f3420ea2f200e862521bc854 *NEWS.md
 3ed23ba66095a20862982211659b34b9 *R/cached_read.R
 25ddb99327f915d34b0e566605bc21a7 *R/file_cache.R
 7cd4505a59b22a915f14ec3bd64fff52 *R/interpret_type.R
@@ -10,7 +10,7 @@ a699489fbaa4c98f0be448cb32b5ce39 *LICENSE
 8e0b2dc83dd19e55a19f75d89c11e2dd *R/util-get_file_info.R
 370946680ccdc94145b2051f41eacd6d *R/vectorize_reader.R
 de2b0df4045c92ae0afc83c555991e67 *R/with_cache.R
-57800f2b7754c75111760f3ed038bafc *README.md
+f43ec26d7bf7ccf2b360bec61c10e551 *README.md
 071c2fc2ab835760ab14c7ec44ab8d85 *inst/WORDLIST
 64cddaad066ea0b9446d40bf27a3ca40 *inst/examples/cache.R
 947ae3a30327a6ecb3034c3ac5aee724 *inst/examples/cached_read.R
@@ -31,7 +31,7 @@ d0f2ad5d3f676040e055272dfab3d664 *man/get_file_info.Rd
 6bddb3b8d0d7c02d9c1db5da895d8d2c *man/vectorize_reader.Rd
 aeab1d5787d0a6ae89e2aa1220a8fc44 *man/with_cache.Rd
 7347c3a61edadfd418402153d613c76c *tests/testthat.R
-56b8cf92cff537261975621f9c0b2220 *tests/testthat/test-cached_read.R
+bed44c70e35e560c306365c29dfa8c6e *tests/testthat/test-cached_read.R
 aaa295cbb60534a3c23d106548528ec6 *tests/testthat/test-file_cache.R
 f1169a22866b9364f64c0f42d71f277b *tests/testthat/test-interpret_type.R
 9b7423ed0fa99644850bdd05f0e3f6fc *tests/testthat/test-util-dfs_equal.R
