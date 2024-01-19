@@ -31,13 +31,12 @@ get_csv_fns <- function(type = NULL) {
     },
     "base" = list(
       read = vectorize_reader(utils::read.csv, "file_path"),
-      write = utils::write.csv
+      write = \(x, f) utils::write.csv(x, f, row.names = FALSE)
     )
   )
 
   if (is.null(type)) {
-    installed_fns <- rw_fns[!is.null(rw_fns)]
-    fn_list <- installed_fns[[1]]
+    fn_list <- purrr::detect(rw_fns, \(x) !is.null(x))
   } else if (type %in% names(rw_fns)) {
     fn_list <- rw_fns[[type]]
   } else {

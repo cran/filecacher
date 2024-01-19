@@ -1,7 +1,23 @@
+# filecacher 0.2.9
+
+* Removed dependencies on `fs`, `dplyr`, `readr` in tests to pass CRAN package 
+  checks.
+  
+* Fixed bug in `file_cache()` when suggested packages were not available.
+  
+* Made explicit the dependency R (>= 4.1.0) due to use of new pipe `|>` in 
+  tests and examples.
+
+# filecacher 0.2.8
+
+* Updates to pass CRAN package checks.
+
+
 # filecacher 0.2.7
 
 * Another fix to `test-cached_read` to pass CRAN Package Check. 
   Copied test data to a temporary directory to perform tests there.
+
 
 # filecacher 0.2.5
 
